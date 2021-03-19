@@ -19,7 +19,6 @@ export function TaskList() {
 
     function createNewTask(){
       const IdRandom = Math.random();
-
       
       const newTask = {
         id: IdRandom,
@@ -64,8 +63,7 @@ export function TaskList() {
 
         <div className="input-group">
           <input 
-            type="text" 
-            required
+            type="text"
             placeholder="Adicionar novo todo" 
             onChange={(e) => setNewTaskTitle(e.target.value)}
             value={newTaskTitle}
