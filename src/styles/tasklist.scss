@@ -25,6 +25,8 @@ section.task-list {
 
       background: #fff;
       font-size: 16px;
+
+      
       
       input {
         flex: 1;
@@ -39,6 +41,8 @@ section.task-list {
         &::placeholder {
           color: var(--text-light)
         }
+
+                
       }
 
       button {
@@ -114,6 +118,7 @@ section.task-list {
                   display: block;
                 }
               } 
+              
             }
           
             .checkmark {
